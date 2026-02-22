@@ -1,14 +1,23 @@
-<style>
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 *{
-    MARGING:0;
-    PADDING:0;
-    BOX-SIZING: BORDER-BOX;
-  font-family: "Oswald", sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  font-family: "oswald", sans-serif;
 }
 
-body}
-DISPLAY: FLEX;
-JUSTIFY-CONTENT:center;
-ALIGN-ITENS:CENTER;
-height;100vh;
+body{
+  display:flex;
+justify-content:center;
+align-items:center;
+ min-height:100vh;
+ background:url('./ img/img.jpg');
+ background-size: cover;
+ background-position: center;
+}
+
+.container{
+  width: 420px;
+background-color: transparent;
+border:2px solid  
