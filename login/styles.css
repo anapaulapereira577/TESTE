@@ -96,6 +96,21 @@ body{
   background-color:transparent;
   border: 2px solid rgba(255, 255, 255, 0.2);
   color:#fff;
-  transition:0
+  transition:0.5s;
+}
+
+.register-link{
+  font-size: 14px;
+  text-align: center;
+  margin: 20px 0 15px;
+}
+.register-link a{
+  text-decoration:none;
+  color:#fff;
+  font-weight: 500;
+}
+
+.register-link a:hover{
+  text-decoration:underline;
 }
 
