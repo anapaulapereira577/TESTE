@@ -12,7 +12,7 @@ body{
   justify-content:center;
   align-items:center;
   min-height:100vh;
-  background:url('./login/img/ChatGPT Image 26 de fev. de 2026, 00_10_36.png');
+  background: linear-gradient(to right,#a658b1d3,#9e5494d0);
   background-size: cover;
   background-position: center;
 }
@@ -20,10 +20,10 @@ body{
 .container{
   width: 420px;
   background-color: transparent;
-  border:2px solid  rgba(255,255,255, .2);
+  border:2px solid  rgba(8, 183, 214, 0.938);
   border-radius: 10px;
   padding: 30px 40px;
-  box-shadow:0 0 10px rgba(0,0,0,.1);
+  box-shadow:0 0 10px rgba(236, 192, 223, 0.1);
   backdrop-filter:blur(120px);
 }
 .container h1{
@@ -42,7 +42,7 @@ body{
   width:100%;
   height:100%;
   background-color: transparent;
-  border:2px solid rgba(255, 255, 255, .2);
+  border:2px solid rgba(170, 18, 230, 0.979);
   outline:none;
   font-size:  16px;
   color: #fff;
