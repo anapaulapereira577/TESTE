@@ -1,7 +1,7 @@
  :root {
     --main-color:#d3ad7f;
-    --black:#2C2C2C;
-    --bg:#1a1a1a;
+    --black:#010103;
+    --bg:#13131a;
     --border:0.1rem solid rgba(255,255,255,0.3);
     font-size: 10px;
  }
@@ -13,11 +13,16 @@
     border: none;
     text-decoration:none;
     text-transform: capitalize;
-    transition:0.2 linear;
+    transition:0.2s linear;
 
  }
  body{
     background-color:var(--bg);
+}
+section{
+    padding: 3rem;
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
 .header{
@@ -35,4 +40,39 @@
     justify-content: space-between;
     padding-top: 1.5 rem;
     padding-bottom: 1.5 rem;
+}
+
+.navbar a{
+    margin: 0 1rem;
+    font-size: 1.8rem;
+    color: #fff; 
+}
+
+.navbar a:hover{
+    color:var(--main-color);
+    border-bottom:0.1rem solid var(--main-color);
+    padding-bottom:0.5rem ;
+    font-size: 2rem;
+
+
+}
+
+.icons img{
+    margin:1rem;
+    cursor: pointer;
+}
+
+.icons img:hover{
+    width: 40px;
+    height: 40px;
+}
+
+.btn{
+    background: var(--main-color);
+    color: #fff;
+    padding: 1rem 3rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    margin-top: 1rem;
+
 }
